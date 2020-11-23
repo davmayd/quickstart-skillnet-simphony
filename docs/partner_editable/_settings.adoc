@@ -1,0 +1,14 @@
+:quickstart-project-name: quickstart-skillnet-simphony
+:partner-product-name: Oracle Hospitality Simphony POS
+:partner-company-name: SkillNet Solutions, Inc.
+:doc-month: November
+:doc-year: 2020
+:partner-contributors: Satheesh Kumar Thiyagarajan - Skillnet Solutions, Inc.
+:quickstart-contributors: Dave May - Partner Solution Architect, Quick Start team
+:deployment_time: 30 minutes
+:default_deployment_region: us-east-1
+// Uncomment these two attributes if you are leveraging
+// - an AWS Marketplace listing.
+// Additional content will be auto-generated based on these attributes.
+// :marketplace_subscription:
+// :marketplace_listing_url: https://example.com/
