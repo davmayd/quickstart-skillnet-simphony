@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description: This template creates a VPC infrastructure for a multi-AZ, multi-tier
-  deployment of xStoreOffice on AWS. It deploys a VPC with a bastion host.
+  deployment of Simphony on AWS. It deploys a VPC with a bastion host.
   WARNING This template creates EC2 instances and related resources. You will be billed for
   the AWS resources used if you create a stack from this template. (qs-1r53pe6g1)
 Metadata:
@@ -114,7 +114,7 @@ Parameters:
     AllowedPattern: ^[0-9a-zA-Z-/]*$
     ConstraintDescription: Quick Start key prefix can include numbers, lowercase letters,
       uppercase letters, hyphens (-), and forward slash (/).
-    Default: quickstart-skillnet-xstoreoffice/
+    Default: quickstart-skillnet-simphony/
     Description: S3 key prefix for the Quick Start assets. Quick Start key prefix
       can include numbers, lowercase letters, uppercase letters, hyphens (-), and
       forward slash (/).
@@ -142,7 +142,7 @@ Parameters:
       - Small
       - Medium
       - Large
-    Description: The XStore Office Environment Size (S,M,L).
+    Description: The Simphony Environment Size (S,M,L).
   KeyPairName:
     Description: EC2 key pair name.
     Type: AWS::EC2::KeyPair::KeyName

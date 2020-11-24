@@ -85,7 +85,7 @@ Parameters:
     Default: "http://192.168.50.197:3128"
   IamInstanceProfile:
     Type: String
-    Default: xstore_ec2_instance
+    Default: simphony_ec2_instance
     Description: must be the IAM Instance Profile of an existing Virtual Private Cloud.  
 Mappings:
   RegionMap:
@@ -146,10 +146,9 @@ Resources:
             yum install -y puppet-agent
             
             echo "[main]" >> /etc/puppetlabs/puppet/puppet.conf
-            echo "certname = oracdb02.skillnetaws.com" >> /etc/puppetlabs/puppet/puppet.conf
+            echo "certname = oracdb01.skillnetaws.com" >> /etc/puppetlabs/puppet/puppet.conf
             echo "server = puppet.skillnetaws.com" >> /etc/puppetlabs/puppet/puppet.conf
             echo "environment = simphony_oracledb" >> /etc/puppetlabs/puppet/puppet.conf
-            echo "runinterval = 1h" >> /etc/puppetlabs/puppet/puppet.conf
             
             #/opt/puppetlabs/bin/puppet agent -t            
   SimphonyOracleDBGroup:

@@ -24,7 +24,7 @@ Metadata:
         - DLMCrossRegionCopy
     ParameterLabels:
       UserSpecifiedVPCId:
-        default: The VPC where to deploy XStoreOffice in
+        default: The VPC where to deploy simphony in
       Subnet1ID:
         default: The first private subnet
       Subnet2ID:

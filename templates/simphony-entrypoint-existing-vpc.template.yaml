@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description: This template uses existing VPC infrastructure for a multi-AZ, multi-tier
-  deployment of xStoreOffice on AWS. 
+  deployment of Simphony on AWS. 
   WARNING This template creates EC2 instances and related resources. You will be billed for
   the AWS resources used if you create a stack from this template. (qs-1r53pe6j0)
 Metadata:
@@ -119,7 +119,7 @@ Parameters:
       - Small
       - Medium
       - Large
-    Description: The XStore Office Environment Size (S,M,L).
+    Description: The Simphony Environment Size (S,M,L).
   KeyPairName:
     Description: EC2 key pair name.
     Type: AWS::EC2::KeyPair::KeyName

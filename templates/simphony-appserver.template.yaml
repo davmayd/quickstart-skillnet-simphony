@@ -175,11 +175,9 @@ Resources:
               ac -Encoding UTF8  "$($env:windir)/system32/Drivers/etc/hosts" "${PuppetServerIP} ${PuppetServerFQDN} puppet"
               
               # Download puppet agent installar
-              Read-S3Object -BucketName "${QSS3BucketName}" -Key "${QSS3KeyPrefix}scripts/puppet-agent-5.5.8-x64.msi" -File puppet-agent.msi
+              mkdir c:/software
+              Read-S3Object -BucketName "${QSS3BucketName}" -Key "${QSS3KeyPrefix}scripts/puppet-agent-5.5.8-x64.msi" -File c:/software/puppet-agent.msi
               Start-Sleep -Seconds 120
-              
-              # Install puppet agent 
-              msiexec /log puppet-agent-installation.log /qn /norestart /i puppet-agent.msi PUPPET_AGENT_ENVIRONMENT=simphony_appserver
               
               # Turn on Data Execution Prevention (DEP)
               Start-Sleep -Seconds 300       
@@ -205,5 +203,5 @@ Resources:
         -
           Key: LCM_TAG
           PropagateAtLaunch: true
-          Value: XSTORE          
+          Value: SIM          
      

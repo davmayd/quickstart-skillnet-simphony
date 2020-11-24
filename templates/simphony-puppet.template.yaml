@@ -156,15 +156,7 @@ Resources:
             yum -y install puppetserver  
 
             mkdir /JAVA 
-            /usr/local/bin/aws s3 cp "s3://${QSS3BucketName}/${QSS3KeyPrefix}scripts/jdk/jdk-6u45-windows-x64.exe" /JAVA/
-            chmod -R 777 /JAVA
-
             mkdir -p /ORACLEDB/12.1.0.2/
-            /usr/local/bin/aws s3 cp "s3://${QSS3BucketName}/${QSS3KeyPrefix}scripts/oracledb/12.1.0.2/database.zip" /ORACLEDB/12.1.0.2/
-            /usr/local/bin/aws s3 cp "s3://${QSS3BucketName}/${QSS3KeyPrefix}scripts/oracledb/12.1.0.2/database_1of2.zip" /ORACLEDB/12.1.0.2/
-            /usr/local/bin/aws s3 cp "s3://${QSS3BucketName}/${QSS3KeyPrefix}scripts/oracledb/12.1.0.2/database_2of2.zip" /ORACLEDB/12.1.0.2/
-            chmod -R 777 /ORACLEDB
-
             chmod -R 777 /etc/puppetlabs
 
             /usr/local/bin/aws s3 cp "s3://${QSS3BucketName}/${QSS3KeyPrefix}scripts/fileserver.conf" /etc/puppetlabs/puppet/
