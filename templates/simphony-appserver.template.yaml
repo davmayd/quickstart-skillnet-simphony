@@ -118,8 +118,37 @@ Parameters:
 Mappings:
   RegionMap:
     us-east-1:
-      "Win12AMIOLD" : "ami-00360458a879ed9a6"
       "Win12AMI" : "ami-003a480a3489b1c5c"
+    ap-northeast-1:
+      "Win12AMI" : "ami-0ddc626ddec721c46"
+    ap-northeast-2:
+      "Win12AMI" : "ami-0529040055f54cedc"
+    ap-south-1:
+      "Win12AMI" : "ami-015f0e5c464a8512a"
+    ap-southeast-1:
+      "Win12AMI" : "ami-0a056a958e42c5eea"
+    ap-southeast-2:
+      "Win12AMI" : "ami-0ff8c6c8a57b86baf"
+    ca-central-1:
+      "Win12AMI" : "ami-036eeef0b441e4372"
+    eu-central-1:
+      "Win12AMI" : "ami-03df16a8a966441bb"
+    eu-north-1:
+      "Win12AMI" : "ami-0a1f0facb83b9dfa6"
+    eu-west-1:
+      "Win12AMI" : "ami-0affaaca0d400ed4c"
+    eu-west-2:
+      "Win12AMI" : "ami-090b023339b2e8c50"
+    eu-west-3:
+      "Win12AMI" : "ami-0c140e6c56a0df4f2"
+    sa-east-1:
+      "Win12AMI" : "ami-077b4b1ed505fa38b"
+    us-east-2:
+      "Win12AMI" : "ami-0920445e689437bbf"
+    us-west-1:
+      "Win12AMI" : "ami-0c739d683f3eb652e"
+    us-west-2:
+      "Win12AMI" : "ami-0555de2823859bc40"
   InstanceSize:
     Small:
       "EC2" : "c3.large"

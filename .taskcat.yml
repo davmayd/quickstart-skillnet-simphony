@@ -28,10 +28,10 @@ project:
 tests:
   simphony:
     parameters:
-      AvailabilityZones: us-east-1a,us-east-1b
-      DLMCrossRegionCopy: us-east-2
+      AvailabilityZones: $[taskcat_getaz_2]
+      DLMCrossRegionCopy: $[taskcat_get_cross_region_copy]
       EnvironmentSize: Small
-      KeyPairName: xcenter1
+      KeyPairName: $[taskcat_getkeypair]
       PrivateSubnet1CIDR: 10.10.0.0/19
       PrivateSubnet2CIDR: 10.10.32.0/19
       PublicSubnet1CIDR: 10.10.128.0/20

@@ -90,24 +90,54 @@ Parameters:
 Mappings:
   RegionMap:
     us-east-1:
-      "OEL7AMI" : "ami-0f5e4de17ec9ea1b8" 
+      "OEL7AMI" : "ami-0f5e4de17ec9ea1b8"
+    ap-northeast-1:
+      "OEL7AMI" : "ami-070d8d39442436586"
+    ap-northeast-2:
+      "OEL7AMI" : "ami-088fd31b9429bab5f"
+    ap-south-1:
+      "OEL7AMI" : "ami-08e4e9f5c64c4befc"
+    ap-southeast-1:
+      "OEL7AMI" : "ami-0284c1360e759acdf"
+    ap-southeast-2:
+      "OEL7AMI" : "ami-07824d3d329f9a9f8"
+    ca-central-1:
+      "OEL7AMI" : "ami-03bb0516cb27a3103"
+    eu-central-1:
+      "OEL7AMI" : "ami-03776a387eb0f2cb4"
+    eu-north-1:
+      "OEL7AMI" : "ami-05e73148d1af4b031"
+    eu-west-1:
+      "OEL7AMI" : "ami-0d2e527a99778d31c"
+    eu-west-2:
+      "OEL7AMI" : "ami-05e974c6d389dc49e"
+    eu-west-3:
+      "OEL7AMI" : "ami-00305c4621f7761e5"
+    sa-east-1:
+      "OEL7AMI" : "ami-09a4c73fc7f5e5a38"
+    us-east-2:
+      "OEL7AMI" : "ami-029d1f47786637314"
+    us-west-1:
+      "OEL7AMI" : "ami-0139118fa80b5b4bb"
+    us-west-2:
+      "OEL7AMI" : "ami-001ed3bebf18ea5d6"
   InstanceSize:
     Small:
       "EC2" : "c3.large"
       "MinSize" : "1"
-      "MaxSize" : "4"
+      "MaxSize" : "1"
       "DesireSize" : "1"
       "EbsVolumeSize" : "200"
     Medium:
       "EC2" : "c3.xlarge"
       "MinSize" : "1"
-      "MaxSize" : "6"
+      "MaxSize" : "1"
       "DesireSize" : "1"
       "EbsVolumeSize" : "250"
     Large:
       "EC2" : "c3.2xlarge"
       "MinSize" : "1"
-      "MaxSize" : "8"
+      "MaxSize" : "1"
       "DesireSize" : "1"  
       "EbsVolumeSize" : "500"
 Resources:
