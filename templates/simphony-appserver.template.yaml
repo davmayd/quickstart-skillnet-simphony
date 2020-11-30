@@ -151,21 +151,21 @@ Mappings:
       "Win12AMI" : "ami-0555de2823859bc40"
   InstanceSize:
     Small:
-      "EC2" : "c3.large"
+      "EC2" : "c5.large"
       "MinSize" : "1"
       "MaxSize" : "1"
       "DesireSize" : "1"
       "EbsRootVolumeSize" : "100"
       "EbsVolumeSize" : "100"
     Medium:
-      "EC2" : "c3.xlarge"
+      "EC2" : "c5.xlarge"
       "MinSize" : "1"
       "MaxSize" : "1"
       "DesireSize" : "1"
       "EbsRootVolumeSize" : "150"
       "EbsVolumeSize" : "150"
     Large:
-      "EC2" : "c3.2xlarge"
+      "EC2" : "c5.2xlarge"
       "MinSize" : "1"
       "MaxSize" : "1"
       "DesireSize" : "1"  

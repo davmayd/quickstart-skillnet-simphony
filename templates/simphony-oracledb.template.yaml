@@ -123,19 +123,19 @@ Mappings:
       "OEL7AMI" : "ami-001ed3bebf18ea5d6"
   InstanceSize:
     Small:
-      "EC2" : "c3.large"
+      "EC2" : "c5.large"
       "MinSize" : "1"
       "MaxSize" : "1"
       "DesireSize" : "1"
       "EbsVolumeSize" : "200"
     Medium:
-      "EC2" : "c3.xlarge"
+      "EC2" : "c5.xlarge"
       "MinSize" : "1"
       "MaxSize" : "1"
       "DesireSize" : "1"
       "EbsVolumeSize" : "250"
     Large:
-      "EC2" : "c3.2xlarge"
+      "EC2" : "c5.2xlarge"
       "MinSize" : "1"
       "MaxSize" : "1"
       "DesireSize" : "1"  

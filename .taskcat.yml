@@ -37,9 +37,9 @@ tests:
       PublicSubnet1CIDR: 10.10.128.0/20
       PublicSubnet2CIDR: 10.10.144.0/20
       PuppetServerFQDN: puppet.skillnetaws.com
-      QSS3BucketName: skillnet-aws-workload-migration
-      QSS3BucketRegion: us-east-1
-      QSS3KeyPrefix: simphony-quickstart/
+      QSS3BucketName: $[taskcat_autobucket]
+      QSS3BucketRegion: $[taskcat_current_region]
+      QSS3KeyPrefix: quickstart-skillnet-simphony/
       RemoteAccessCIDR: 0.0.0.0/0
       StackPrefix: Simphony
       VPCCIDR: 10.10.0.0/16
