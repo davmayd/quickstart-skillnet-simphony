@@ -20,9 +20,9 @@ In the public subnets:
 In the private subnets:
 // Add bullet points for any additional components that are included in the deployment. Make sure that the additional components are also represented in the architecture diagram.
 
-* Oracle database running on EC2 instance for Simphony and Reporting and Analytics (R&A) applications database.
-* Application server running on EC2 instance for Simphony and Reporting and Analytics (R&A) applications deployment.
-* A Puppet server running on EC2 instance for Oracle database installation, JDK installation and Windows IIS server configuration.
+* Oracle database running on an EC2 instance for the Simphony and Reporting and Analytics (R&A) applications database.
+* An application server running on an EC2 instance for the Simphony and Reporting and Analytics (R&A) applications deployment.
+* A Puppet server running on an EC2 instance for Oracle database installation, JDK installation, and Windows IIS server configuration.
 
 *Amazon Data Lifecycle Manager (DLM)* to automate the creation, retention, and deletion of snapshots of the Amazon Elastic Block Storage (EBS) volumes. Automating snapshot management accomplishes the following:
 
@@ -30,7 +30,8 @@ In the private subnets:
 * Retains backups as required by auditors or for internal compliance.
 * Reduces storage costs by deleting outdated backups.
 
-DLM is configured as follows:  
+DLM is configured as follows:
+
 * The EC2 tag ( Name: *LCM_TAG* , Value: *SIM* ) key-value pair is used to take snapshots.
 * The most recent 3 snapshots are retained. 
 * A copy of each snapshot is stored in another AWS Region for data redundancy.

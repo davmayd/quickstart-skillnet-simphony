@@ -3,7 +3,7 @@
 
 == Post deployment steps
 // If Post-deployment steps are required, add them here. If not, remove the heading
-Disable the Auto Scaling Group for the Oracle Database, Application Server and Bastion Host.
+Disable the Auto Scaling Groups for the Oracle database, application server, and bastion host.
 
 . Select Auto Scaling Group for Oracle Database.
 . In the Details tab, click the "edit" button.

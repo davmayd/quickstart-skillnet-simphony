@@ -29,7 +29,7 @@ tests:
   simphony:
     parameters:
       AvailabilityZones: $[taskcat_getaz_2]
-      DLMCrossRegionCopy: $[taskcat_get_cross_region_copy]
+      DLMCrossRegionCopy: us-east-2
       EnvironmentSize: Small
       KeyPairName: $[taskcat_getkeypair]
       PrivateSubnet1CIDR: 10.10.0.0/19

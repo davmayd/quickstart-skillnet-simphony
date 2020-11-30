@@ -172,7 +172,7 @@ Resources:
           Fn::GetAtt:
           - LandingZone
           - Outputs.SimphonyVpcID
-        Subnets: !Join [ ",", [ Fn::GetAtt: [ LandingZone, Outputs.SimphonySubnet1ID ], Fn::GetAtt: [ LandingZone, Outputs.SimphonySubnet2ID ] ] ]
+        Subnets: !Join [ ",", [!GetAtt LandingZone.Outputs.SimphonySubnet1ID, !GetAtt LandingZone.Outputs.SimphonySubnet2ID ]]
         SecurityGroups:
           Fn::GetAtt:
           - LandingZone
@@ -202,7 +202,7 @@ Resources:
           Fn::GetAtt:
           - LandingZone
           - Outputs.SimphonyVpcID
-        Subnets: !Join [ ",", [ Fn::GetAtt: [ LandingZone, Outputs.SimphonySubnet1ID ], Fn::GetAtt: [ LandingZone, Outputs.SimphonySubnet2ID ] ] ]
+        Subnets: !Join [ ",", [!GetAtt LandingZone.Outputs.SimphonySubnet1ID, !GetAtt LandingZone.Outputs.SimphonySubnet2ID ]]
         SecurityGroups:
           Fn::GetAtt:
           - LandingZone
