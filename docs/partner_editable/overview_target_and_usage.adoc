@@ -1,0 +1,3 @@
+This Quick Start reference deployment guide provides step-by-step instructions for deploying {partner-product-name} on the AWS Cloud.
+
+This Quick Start is for Customers who are looking to either migrate or host {partner-product-name} Workload to AWS. The objective of this playbook is to provide a prescribed Migration framework for hosting {partner-product-name} (transaction and reporting server) on AWS.  
