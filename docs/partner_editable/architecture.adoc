@@ -32,7 +32,8 @@ Using Amazon DLM to automate how you manage EBS snapshots, you can:
 * Reduce storage costs by deleting outdated backups. 
 
 When you configure DLM, note the following: 
-* The EC2 tag (Name: *LCM_TAG*, Value: *SIM*) key-value pair is used to take snapshots.
+
+* The EC2 tag key-value pair (Name: *LCM_TAG*, Value: *SIM*) is used to take snapshots.
 * The most recent three snapshots are retained. 
 * A copy of each snapshot is stored in another AWS Region for data redundancy.
 
