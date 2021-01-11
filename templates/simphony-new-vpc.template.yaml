@@ -4,8 +4,6 @@ Description: This template creates a VPC infrastructure for a multi-AZ, multi-ti
   WARNING This template creates EC2 instances and related resources. You will be billed for
   the AWS resources used if you create a stack from this template. (qs-1r53pe6g1)
 Metadata:
-  QuickStartDocumentation:
-    EntrypointName: "Launch into a new VPC"
   AWS::CloudFormation::Interface:
     ParameterGroups:
     - Label:
