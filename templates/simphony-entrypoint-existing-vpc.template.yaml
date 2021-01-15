@@ -5,7 +5,7 @@ Description: This template uses an existing VPC infrastructure for a multi-AZ, m
   the AWS resources used if you create a stack from this template. (qs-1r53pe6j0)
 Metadata:
   QuickStartDocumentation:
-    EntrypointName: "Launch into an existing VPC"
+    EntrypointName: "Parameters for launch into an existing VPC"
   AWS::CloudFormation::Interface:
     ParameterGroups:
     - Label:
