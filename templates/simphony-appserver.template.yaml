@@ -122,37 +122,37 @@ Parameters:
 Mappings:
   RegionMap:
     us-east-1:
-      "Win12AMI" : "ami-003a480a3489b1c5c"
+      "Win12AMI" : "ami-025dee5de86eaa5dd"
     ap-northeast-1:
-      "Win12AMI" : "ami-0ddc626ddec721c46"
+      "Win12AMI" : "ami-01dd0ab03ce83f2bd"
     ap-northeast-2:
-      "Win12AMI" : "ami-0529040055f54cedc"
+      "Win12AMI" : "ami-0b6301886abfaf152"
     ap-south-1:
-      "Win12AMI" : "ami-015f0e5c464a8512a"
+      "Win12AMI" : "ami-0e3a60b3671d4f426"
     ap-southeast-1:
-      "Win12AMI" : "ami-0a056a958e42c5eea"
+      "Win12AMI" : "ami-0c6bf1d8c19b17b0c"
     ap-southeast-2:
-      "Win12AMI" : "ami-0ff8c6c8a57b86baf"
+      "Win12AMI" : "ami-08203b2fe3d016151"
     ca-central-1:
-      "Win12AMI" : "ami-036eeef0b441e4372"
+      "Win12AMI" : "ami-03662f5fdab34a79b"
     eu-central-1:
-      "Win12AMI" : "ami-03df16a8a966441bb"
+      "Win12AMI" : "ami-056e6905559e5ae5b"
     eu-north-1:
-      "Win12AMI" : "ami-0a1f0facb83b9dfa6"
+      "Win12AMI" : "ami-0a95a55db30f2dc58"
     eu-west-1:
-      "Win12AMI" : "ami-0affaaca0d400ed4c"
+      "Win12AMI" : "ami-0ae214d3fbbd81827"
     eu-west-2:
-      "Win12AMI" : "ami-090b023339b2e8c50"
+      "Win12AMI" : "ami-0bc237d1e18c6c53d"
     eu-west-3:
-      "Win12AMI" : "ami-0c140e6c56a0df4f2"
+      "Win12AMI" : "ami-0e8897f22e93639a0"
     sa-east-1:
-      "Win12AMI" : "ami-077b4b1ed505fa38b"
+      "Win12AMI" : "ami-0d6ff5ada92ff8591"
     us-east-2:
-      "Win12AMI" : "ami-0920445e689437bbf"
+      "Win12AMI" : "ami-0ec62a1f6d0b54a86"
     us-west-1:
-      "Win12AMI" : "ami-0c739d683f3eb652e"
+      "Win12AMI" : "ami-04ef5a39a63e1b171"
     us-west-2:
-      "Win12AMI" : "ami-0555de2823859bc40"
+      "Win12AMI" : "ami-03d552f93c332d96b"
   InstanceSize:
     Small:
       "EC2" : "c5.large"
